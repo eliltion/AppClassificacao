@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tensorflow/tensorflow.dart';
+import 'package:tensorflow/classificacao.dart';
 
 void main() => runApp(MyApp());
 
@@ -8,8 +8,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Tensorflow Lite',
-      home: Tensorflow(),
+      title: 'D.D.P',
+      home: Classificacao(),
     );
   }
 }
